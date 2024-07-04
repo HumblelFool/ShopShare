@@ -52,7 +52,7 @@ A full-stack eCommerce application built with React and Spring Boot . The projec
   - MySQL : Database to store application data.
 
 ## Installation
-https://github.com/HumblelFool/ShopShare.git
+
 
 1. Clone Frontend repository: `git clone https://github.com/HumblelFool/ShopShare.git`
 2. Clone Backend Repository: `git clone https://github.com/HumblelFool/ShopShare.git`
