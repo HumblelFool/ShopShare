@@ -2,6 +2,7 @@ package com.zosh.controller;
 
 import java.util.List;
 
+import jakarta.transaction.Transactional;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -20,6 +21,7 @@ import com.zosh.response.ApiResponse;
 import com.zosh.service.ProductService;
 
 @RestController
+
 @RequestMapping("/api/admin/products")
 public class AdminProductController {
 	

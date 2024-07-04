@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+import jakarta.transaction.Transactional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
@@ -21,6 +22,7 @@ import com.zosh.request.CreateProductRequest;
 import com.zosh.user.domain.ProductSubCategory;
 
 @Service
+
 public class ProductServiceImplementation implements ProductService {
 	
 	private ProductRepository productRepository;
